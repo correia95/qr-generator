@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#7c3aed" />
+
+    <title>QR Code Generator — free, no sign-up, PNG &amp; SVG download</title>
+    <meta
+      name="description"
+      content="Create a QR code for a link, Wi-Fi network, email, SMS, phone number or contact card. Live preview, custom colours and error correction, download as PNG or SVG. Free, no watermark, no sign-up — the code is built entirely in your browser and never expires."
+    />
+    <link rel="canonical" href="https://qr-generator.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="QR Code Generator — free, no sign-up" />
+    <meta property="og:description" content="Link, Wi-Fi, contact card and more. Live preview, PNG & SVG download, no watermark. Static codes that never expire." />
+    <meta property="og:url" content="https://qr-generator.correia95.workers.dev/" />
+    <meta property="og:image" content="https://qr-generator.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="QR Code Generator — free, no sign-up" />
+    <meta name="twitter:description" content="Link, Wi-Fi, contact card and more. PNG & SVG download, no watermark." />
+    <meta name="twitter:image" content="https://qr-generator.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "QR Code Generator",
+        "url": "https://qr-generator.correia95.workers.dev/",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Generate static QR codes for links, Wi-Fi, email, SMS, phone and contact cards, with PNG and SVG download. Runs entirely in the browser."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is this QR code generator really free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. There is no sign-up, no watermark and no limit. The QR code is generated in your browser and you can download it as a PNG or SVG."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do the QR codes expire?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. These are static QR codes — the information is encoded directly in the pattern, so they keep working forever and are not tracked. Only paid 'dynamic' QR codes, which encode a redirect link, can expire."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I make a QR code for my Wi-Fi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Choose the Wi-Fi tab, enter the network name and password and pick the security type. Scanning the resulting code with a phone camera prompts it to join the network. This works on iOS 11 and later and Android 10 and later."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which error correction level should I use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Medium (15%) is a good default. Use High (30%) if the code will be small, printed on something that flexes, partly covered, or has a logo in the middle."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        This QR code generator needs JavaScript. It creates static QR codes for links, Wi-Fi,
+        email, SMS, phone numbers and contact cards, with PNG and SVG download, entirely in your
+        browser.
+      </p>
+    </noscript>
+  </body>
+</html>
